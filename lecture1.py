@@ -32,7 +32,7 @@ def index():
 def get_student(student_id: int = Path(..., description="The ID of the student you want to view", gt=0)):
     return students[student_id]
 
-# get-by-name/1?name=danny&test=1
+# get-by-name/1?name=danny&test=1 \
 @app.get("/get-by-name/{student_id}")
 def get_student(*,student_id, name: Optional[str]=None, test : int): # Optional[] = None을 쓰면 Required 되지 않음
     for student_id in students:
