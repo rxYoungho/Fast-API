@@ -48,7 +48,7 @@ AWS S3
 
 
 사업 모델 정하기
-프로토타입하는법 (Figma)
+프로토타입하는법 (Figma) -> UI/UX
 Database UML Diagram 작성
 
 API 문서 작성(SWAGGER) / 백엔드 백본 코드 작성(FAST API)
@@ -61,6 +61,5 @@ Frontend 업무 끝날 시
 클라이언트 사이드 웹뷰 생성 및 뼈대 맞추기
 Request시 API 콜 만들기
 마지막 디자인 정리 및 배포
-
 
 
